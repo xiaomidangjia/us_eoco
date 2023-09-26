@@ -28,7 +28,7 @@ for ele in pce_date:
 		content = '\n \
 %s今晚%s是美国公布PCE时间。\n \
 %s'%(sub_ele,ele_time,pce_text)
-		bot.sendMessage(chat_id='-1001975215255', text = text_4,message_thread_id=6) #链上数据分享
+		bot.sendMessage(chat_id='-1001975215255', text = content,message_thread_id=6) #链上数据分享
 	else:
 		continue
 
@@ -39,7 +39,7 @@ for ele in cpi_date:
 		content = '\n \
 %s今晚%s是美国公布CPI时间。\n \
 %s'%(sub_ele,ele_time,cpi_text)
-		bot.sendMessage(chat_id='-1001975215255', text = text_4,message_thread_id=6) #链上数据分享
+		bot.sendMessage(chat_id='-1001975215255', text = content,message_thread_id=6) #链上数据分享
 	else:
 		continue
 
@@ -50,7 +50,7 @@ for ele in feinong_date:
 		content = '\n \
 %s今晚%s是美国公布非农数据时间。\n \
 %s'%(sub_ele,ele_time,feinong_text)
-		bot.sendMessage(chat_id='-1001975215255', text = text_4,message_thread_id=6) #链上数据分享
+		bot.sendMessage(chat_id='-1001975215255', text = content,message_thread_id=6) #链上数据分享
 	else:
 		continue
 
